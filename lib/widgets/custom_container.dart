@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomContainer extends StatelessWidget {
-  final String title;
-  CustomContainer({required this.title});
+  final String name;
+  CustomContainer({required this.name});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class CustomContainer extends StatelessWidget {
       child: Card(
         color: Colors.white,
         child: Text(
-          title,
+          name,
           style: TextStyle(color: Colors.black),
         ),
       ),
